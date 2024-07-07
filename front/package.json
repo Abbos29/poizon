@@ -14,7 +14,6 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
     "sass": "^1.77.6",
-    "sneaks-api": "^1.2.3",
     "swiper": "^11.1.4"
   },
   "devDependencies": {

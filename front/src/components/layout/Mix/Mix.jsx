@@ -10,21 +10,10 @@ import 'swiper/css/pagination';
 import MixData from './MixData.js'
 import { useRef } from 'react';
 
+
 const Mix = () => {
 
     const swiperRef = useRef(null);
-
-    fetch('https://stockx.com/api/products', {
-        method: 'GET',
-        headers: {
-            'x-rapidapi-host': 'stockx.p.rapidapi.com',
-            'x-rapidapi-key': 'YOUR_RAPIDAPI_KEY'
-        }
-    })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error fetching StockX data:', error));
-
 
     return (
         <section className={s.mix}>
