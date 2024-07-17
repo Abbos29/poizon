@@ -15,7 +15,7 @@
 .box {
     background: #57bfc1;
 
-    background-image: url(./public/priceBg.jpg);
+    background-image: url(./priceBg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,7 +59,7 @@
     position: relative;
     &::after {
         content: "";
-        background-image: url(./public/qrAfter.svg);
+        background-image: url(./qrAfter.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

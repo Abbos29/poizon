@@ -43,7 +43,7 @@ const Header = () => {
                 <nav className={s.nav}>
 
                     <Link to={'/'}>
-                        <img src="/public/logo.svg" alt="logo" />
+                        <img src="/logo.svg" alt="logo" />
                     </Link>
 
                     <div onClick={handleOverlayClick} className={`${s.overlay} ${isMenu ? `${s.overlay_open}` : ''}`}>
@@ -51,7 +51,7 @@ const Header = () => {
 
                             <div className={s.menu_top}>
                                 <Link to={'/'}>
-                                    <img src="/public/logo.svg" alt="logo" />
+                                    <img src="/logo.svg" alt="logo" />
                                 </Link>
 
                                 <div onClick={closeMenu} className={s.close_btn}>

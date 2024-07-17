@@ -9,7 +9,7 @@ const ButtonTg = ({ to = '/', showImage = true, variant = 'main' }) => {
         [s.btn_solid]: variant === 'solid',
     })
 
-    const imgSrc = variant === 'solid' ? '/public/logo3.svg' : '/public/logo2.svg'
+    const imgSrc = variant === 'solid' ? '/logo3.svg' : '/logo2.svg'
 
     return (
         <Link to={to} className={buttonClass}>

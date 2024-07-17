@@ -66,7 +66,7 @@ const Price = () => {
                         <p>Выбирайте товары в POZION или покупайте прямо с нашего склада в Москве</p>
 
                         <div className={s.qr}>
-                            <img src="/public/qrcode.svg" alt="img" />
+                            <img src="/qrcode.svg" alt="img" />
                         </div>
                     </div>
                 </div>
