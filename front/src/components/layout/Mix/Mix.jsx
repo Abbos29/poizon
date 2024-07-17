@@ -7,8 +7,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import MixData from './MixData.js'
 import { useRef } from 'react';
+import MixData from './MixData.js'
 
 
 const Mix = () => {
