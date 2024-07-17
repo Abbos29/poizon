@@ -8,9 +8,9 @@ $colorText2: #1f2a37;
 $mainColor: #57bfc1;
 
 body {
-    font-family: $fontMain;
-    // background-color: #f9f9f9;
-    color: $colorText2;
+    font-family: $fontMain !important;
+    background-color: #fff !important;
+    color: $colorText2 !important;
 }
 
 .container {
