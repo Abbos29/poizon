@@ -50,7 +50,7 @@ const Header = () => {
                         <div className={s.menu}>
 
                             <div className={s.menu_top}>
-                                <Link to={'/'}>
+                                <Link to={'/'} onClick={closeMenu}>
                                     <img src="/logo.svg" alt="logo" />
                                 </Link>
 
@@ -62,7 +62,7 @@ const Header = () => {
                             </div>
 
                             {Links.map((item, index) => (
-                                <Link key={index} to={item.to}>{item.label}</Link>
+                                <Link key={index} to={item.to} onClick={closeMenu}>{item.label}</Link>
                             ))}
 
                             <div className={s.btn_mobile}>
