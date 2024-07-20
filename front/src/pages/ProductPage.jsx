@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 
 
-import ProductsData from './ProductsData.js'
+import ProductsData from '../data/ProductsData.js'
 import Product from '../components/layout/Product/Product.jsx';
 
 const ProductPage = () => {

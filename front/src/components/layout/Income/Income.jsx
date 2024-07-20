@@ -10,7 +10,7 @@ import { useRef } from 'react';
 // import dataIncome from './dataIncome';
 
 import { Pagination } from 'swiper/modules';
-import ProductsData from '../../../pages/ProductsData';
+import ProductsData from '../../../data/ProductsData.js';
 import { Link } from 'react-router-dom';
 
 const Income = () => {
